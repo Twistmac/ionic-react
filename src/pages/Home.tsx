@@ -58,7 +58,7 @@ const Home: React.FC = () => {
         <IonPage>
             <IonHeader>
                 <IonToolbar>
-                    <IonTitle>Note</IonTitle>
+                    <IonTitle>Client</IonTitle>
                     <IonButtons slot="secondary">
                         <IonButton onClick={getMean}>
                             <IonIcon slot="icon-only" icon={documentMean}/>
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
             <IonContent fullscreen>
                 <IonHeader collapse="condense">
                     <IonToolbar>
-                        <IonTitle size="large">Note</IonTitle>
+                        <IonTitle size="large">Client</IonTitle>
                     </IonToolbar>
                 </IonHeader>
                 <ClientListContainer clients={clients}/>

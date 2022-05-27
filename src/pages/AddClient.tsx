@@ -24,7 +24,7 @@ const AddClient: React.FC = () => {
         <IonPage>
             <IonHeader>
                 <IonToolbar>
-                    <IonTitle>AddClient</IonTitle>
+                    <IonTitle>Add</IonTitle>
                     <IonButtons slot="start">
                         <IonButton onClick={goBack}>
                             <IonIcon slot="icon-only" icon={arrowBack}/>
@@ -35,7 +35,7 @@ const AddClient: React.FC = () => {
             <IonContent fullscreen>
                 <IonHeader collapse="condense">
                     <IonToolbar>
-                        <IonTitle size="large">Note</IonTitle>
+                        <IonTitle size="large">Add</IonTitle>
                     </IonToolbar>
                 </IonHeader>
                 <ClientAddContainer goBack={goBack}/>
